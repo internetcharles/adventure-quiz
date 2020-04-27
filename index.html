@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>Orc Dating Simulator</div> <div><span id='hp'></span><span id='money'></span></div>
+    </header>
+    <main>
+        <form id='user-form'>
+            <div>Enter your name:<input id='name' name='name'></input></div>
+            <fieldset>
+                <div>Choose an outfit: 
+                <p id='outfits'>
+                    <label>
+                        <input id='clothes' type='radio' name='clothes' required value='vest'>
+                        A leather tunic with a gold chain. A look for a rugged, but hip orc.
+                    </label>
+                        <input id='clothes'  type='radio' name='clothes' required value='tuxedo'>
+                        Why this orc is wearing a tuxedo, no one knows.
+                    <label>
+                        <input id='clothes'  type='radio' name='clothes' required value='yeezy'>
+                        This orc is wearing a Supreme tee and a pair of Yeezy shoes. He looks out of place in every tavern.
+                    </label>
+                    <label>
+                        <input id='clothes'  type='radio' name='clothes' required value='chain-armor'>
+                        A full set of chain armor. This orc is fit to grind XP, but maybe not date.
+                    </label>
+                </p>
+            </fieldset>
+            <button>SUBMIT</button>
+        </form>
+        
+    </main>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
