@@ -46,11 +46,11 @@ test('testing list item', function(assert) {
         }]
     };
 
-    const expected = `<a class="location-item" href="../location/?id=tavern"></a>`
+    // const expected = `<a class="location-item" href="../location/?id=tavern"></a>`
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const results = makeListItemLink(tavern);
+    // const results = makeListItemLink(tavern);
 
     //Assert
     // Make assertions about what is expected valid result

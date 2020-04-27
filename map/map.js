@@ -1,16 +1,16 @@
 import locations from '../data/data.js';
-import makeListItemLink from './make-list-item-link.js'
+import makeListItemLink from './make-list-item-link.js';
 import { getUser } from '../data/api.js';
 
-let hPSpan = document.getElementById('hp')
+let hPSpan = document.getElementById('hp');
 let moneySpan = document.getElementById('money');
 const locationNav = document.getElementById('location-place');
 
 // grabbing user from local storage
 const user = getUser();
 
-hPSpan.textContent = user.HP
-moneySpan = user.Gold
+hPSpan.textContent = user.HP;
+moneySpan = user.Gold;
 
 for (let i = 0; i < locations.length; i++) {
     const location = locations[i];

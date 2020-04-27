@@ -152,11 +152,10 @@ const bridge = {
 };
 
 const locations = [
-        tavern,
-        shrine,
-        castle,
-        bridge,
-
-    ];
+            tavern,
+            shrine,
+            castle,
+            bridge,
+];
 
 export default locations;

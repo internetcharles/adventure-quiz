@@ -17,7 +17,7 @@ test('time to test a function', function(assert) {
         HP: 100,
         gold: 50,
 
-    }
+    };
 
     //Act 
     // Call the function you're testing and set the result to a const

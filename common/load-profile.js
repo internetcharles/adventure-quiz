@@ -14,9 +14,9 @@ function loadProfile() {
     }
 
     HP.textContent = user.HP;
-    gold.textContent = user.gold;0
+    gold.textContent = user.gold;
 
-    // insert dead later0
+    // insert dead later
 }
 
 export default loadProfile;

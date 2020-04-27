@@ -1,12 +1,14 @@
 import locations from '../data/data.js';
-import makeListItemLink from './make-list-item-link.js'
-import { getUser } from '../data/api.js';
+// import makeListItemLink from './make-list-item-link.js'
+// import { getUser } from '../data/api.js';
 import findById from '../common/find-by-id.js';
 
-let hPSpan = document.getElementById('hp')
-let moneySpan = document.getElementById('money');
-const locationNav = document.getElementById('location-place');
 
 // grabbing user from local storage
-loadProfile();
 
+
+// grabs query parameter from the URL
+const searchParams = new URLSearchParams(window.location.search);
+// gets quest id from the URL
+const locationId = searchParams.get('id');
+const quest = findById(location, locations.id);
